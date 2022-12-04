@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 22</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="page__container">
+                <section class="js-operators">
+                    <h2>Оператори JAVASCRIPT.</h2>
+                    <p><span>Варіант 1</span> Виведений результат буде "35-22". Так як значення буде перетворенне на
+                        рядкове.</p>
+                    <p><span>Варіант 3</span> викличе помилку, так як декремент застосований безпосередньо для числа
+                        виразу. Щоб декремент спрацював, його необхідно застосувати до змінної з присвоєнним числом.</p>
+                    <p><span>Варіант 4</span> Буде "0" так як декремент застосований в постфіксу</p>
+                    <p><span>Варіант 5</span> Буде "11" так як в першій частині буде "true", і виведеться число 11</p>
+                    <p><span>Варіант 6</span> Виведе значення "0", тому що значення змінної не "null" і не "undefined"
+                    </p>
+
+                </section>
+                <section class="js-ifelse">
+                    <h2>IF ELSE в JAVASCRIPT</h2>
+                    <p><span>Варіант 1</span> Виведе значення "false" так як оператор строгого порівняння === перевіряє рівність без приведення типів даних.</p>
+                    <p><span>Варіант 2</span> Виведе значення "true" так як оператор порівняння == перевіряє рівність з приведенням даних до числового типу.</p>
+                    <p><span>Варіант 3</span> Виведе значення "true" так як 92 більше 11 і 58 меньше 100</p>
+                    <p><span>Варіант 4</span> Виведе значення "true", так як в першій умові if у нас "0" що інтерпретується як "false", спрацьовує друга умова, так як вона не пуста.</p>
+                </section>
+                <section class="js-forwhile">
+                    <h2>Циклы FOR и WHILE в JavaScript</h2>
+                    <p><span>Варіант 2</span> не вірний. Цикл зупиниться на 1, так як значення num = 0 всередині циклу буде означати "false" і цикл зупиниться. </p>
+                </section>
+                <section class="js-strings">
+                    <h2>Строки в JAVASCRIPT</h2>
+                    <p><span>Варіант 1</span> не вірний. Використані одинарні лапки, значення змінної "$fls" не передасться</p>
+                    <p><span>Варіант 3</span> не вірний. Додаваться буде два рядки, відповідь буде 123456</p>
+                    <p><span>Варіант 6</span> Відповідь "False" так як підрядок починається з третього символа</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
